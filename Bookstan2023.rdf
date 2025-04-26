@@ -1,0 +1,3322 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25/"
+     xml:base="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Bookstan2023="http://www.semanticweb.org/Bookstan2023#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/Bookstan2023">
+        <rdfs:comment>Ontologija 8. izdanja književnog festivala &quot;Bookstan&quot; iz 2023. godine.</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#attendee -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#attendee">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/Bookstan2023#wasAttendedBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#author -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#author">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/Bookstan2023#wasWrittenBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#contributor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#contributor">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/Bookstan2023#wasContributedBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#director -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#director">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/Bookstan2023#wasDirectedBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#editor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#editor">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/Bookstan2023#wasEditedBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#employee -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#employee">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/Bookstan2023#hasEmployee"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#hasEmployee -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#hasEmployee"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#hasParticipated -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#hasParticipated">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/Bookstan2023#participant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#hasSpoken -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#hasSpoken">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/Bookstan2023#speaker"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#hostedEvent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#hostedEvent">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/Bookstan2023#location"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#illustrator -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#illustrator">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/Bookstan2023#wasIllustratedBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#instructor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#instructor">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/Bookstan2023#wasInstructedBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#isReviewOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#isReviewOf">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/Bookstan2023#review"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#location -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#location"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#participant -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#participant"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#performer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#performer">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/Bookstan2023#wasPerformedBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#producer -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#producer">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/Bookstan2023#wasProducedBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#publisher -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#publisher">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/Bookstan2023#wasPublishedBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#review -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#review"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#speaker -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#speaker"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#subEvent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#subEvent">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/Bookstan2023#superEvent"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#superEvent -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#superEvent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#translator -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#translator">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/Bookstan2023#wasTranslatedBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#wasAttendedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#wasAttendedBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#wasContributedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#wasContributedBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#wasDirectedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#wasDirectedBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#wasEditedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#wasEditedBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#wasIllustratedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#wasIllustratedBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#wasInstructedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#wasInstructedBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#wasPerformedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#wasPerformedBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#wasPresentedAt -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#wasPresentedAt">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/Bookstan2023#workPresented"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#wasProducedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#wasProducedBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#wasPublishedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#wasPublishedBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#wasTranslatedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#wasTranslatedBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#wasWrittenBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#wasWrittenBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#workPresented -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/Bookstan2023#workPresented"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#addressCountry -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Bookstan2023#addressCountry"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#award -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Bookstan2023#award"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#dateTime -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Bookstan2023#dateTime"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#eventType -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Bookstan2023#eventType"/>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#name -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/Bookstan2023#name">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#ChildrensEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Bookstan2023#ChildrensEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#EducationEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Bookstan2023#EducationEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#ExhibitionEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Bookstan2023#ExhibitionEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#LiteraryEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Bookstan2023#LiteraryEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#MusicAlbum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Bookstan2023#MusicAlbum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#CreativeWork"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#MusicEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Bookstan2023#MusicEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#SocialEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Bookstan2023#SocialEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#TheaterEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/Bookstan2023#TheaterEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Article -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Article">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#CreativeWork"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#CreativeWork"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#CreativeWork -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#CreativeWork">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Event"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#EventVenue"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Organization"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Event">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#EventVenue"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Organization"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#EventVenue -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#EventVenue">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Organization"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Organization -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Organization">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#adisaBašić -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#adisaBašić">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaVersschmuggelKrijumčarenjeStihova"/>
+        <Bookstan2023:name>Adisa Bašić</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#ahmedBurić -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#ahmedBurić">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#sinPustinje"/>
+        <Bookstan2023:performer rdf:resource="http://www.semanticweb.org/Bookstan2023#koncertSinPustinje"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaPedeset"/>
+        <Bookstan2023:addressCountry>Bosna i Hercegovina</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Ahmed Burić</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#ahmetÜmit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#ahmetÜmit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#vrataTajni"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaBajkaUBajciINigdjezemska"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaVrataTajni"/>
+        <Bookstan2023:addressCountry>Turska</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Ahmet Ümit</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#aidaGavrić -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#aidaGavrić">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaDječakČakIEna"/>
+        <Bookstan2023:name>Aida Gavrić</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#akademijaLikovnihUmjetnosti -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#akademijaLikovnihUmjetnosti">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#EventVenue"/>
+        <Bookstan2023:name>Akademija likovnih umjetnosti</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#alenaĆatović -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#alenaĆatović">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaBajkaUBajciINigdjezemska"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaVrataTajni"/>
+        <Bookstan2023:translator rdf:resource="http://www.semanticweb.org/Bookstan2023#vrataTajni"/>
+        <Bookstan2023:name>Alena Ćatović</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#alminKaplan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#alminKaplan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#versschmuggelKrijumčarenjeStihova"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#šušanj"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaVersschmuggelKrijumčarenjeStihova"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaŠušanj"/>
+        <Bookstan2023:name>Almin Kaplan</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#almirImširević -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#almirImširević">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#zlatniGeler"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#pressKonferencija"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaZlatniGeler"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaStrogoPraćeniVlakovi"/>
+        <Bookstan2023:addressCountry>Bosna i Hercegovina</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Almir Imširević</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#amerTikveša -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#amerTikveša">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#magičneBojice"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#perjeBiserje"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaMagičneBojiceIPerjeBiserje"/>
+        <Bookstan2023:addressCountry>Bosna i Hercegovina</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Amer Tikeveša</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#američkiKutakBrčko -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#američkiKutakBrčko">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#EventVenue"/>
+        <Bookstan2023:name>Američki kutak Brčko</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#američkiKutakSarajevo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#američkiKutakSarajevo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#EventVenue"/>
+        <Bookstan2023:name>Američki kutak Sarajevo</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#amilaKahrovićPosavljak -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#amilaKahrovićPosavljak">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#škriptajiKože"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaŠkriptajiKože"/>
+        <Bookstan2023:addressCountry>Bosna i Hercegovina</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Amila Kahrović-Posavljak</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#amraMutapčićČengić -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#amraMutapčićČengić">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaNajusamljenijaAjkulaUMoru"/>
+        <Bookstan2023:name>Amra Mutapčić-Čengić</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#anelaHakalović -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#anelaHakalović">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaČudesniSvijeteIMaliTigar"/>
+        <Bookstan2023:name>Anela Hakalović</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#armaTanovićBranković -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#armaTanovićBranković">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:director rdf:resource="http://www.semanticweb.org/Bookstan2023#predstavaKućaUUliciMango"/>
+        <Bookstan2023:name>Arma Tanović-Branković</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#asliTohumcu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#asliTohumcu">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#možeIDrugačije"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaMožeIDrugačije"/>
+        <Bookstan2023:addressCountry>Turska</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Asli Tohumcu</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#ateljeFigure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#ateljeFigure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#EventVenue"/>
+        <Bookstan2023:name>Atelje Figure</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#bajkaUBajci -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#bajkaUBajci">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaBajkaUBajciINigdjezemska"/>
+        <Bookstan2023:wasWrittenBy rdf:resource="http://www.semanticweb.org/Bookstan2023#ahmetÜmit"/>
+        <Bookstan2023:name>Bajka u bajci</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#benjaminDrijenčić -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#benjaminDrijenčić">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:performer rdf:resource="http://www.semanticweb.org/Bookstan2023#koncertSinPustinje"/>
+        <Bookstan2023:name>Benjamin Drijenčić</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#benjaminMoser -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#benjaminMoser">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:editor rdf:resource="http://www.semanticweb.org/Bookstan2023#evolucijaJedneKratkovidostiIDrugePriče"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaEvolucijaJedneKratkovidostiIDrugePriče"/>
+        <Bookstan2023:name>Benjamin Moser</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#bjankaAlajbegović -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#bjankaAlajbegović">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#versschmuggelKrijumčarenjeStihova"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaVersschmuggelKrijumčarenjeStihova"/>
+        <Bookstan2023:addressCountry>Bosna i Hercegovina</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Bjanka Alajbegovič</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#bogumilHrabal -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#bogumilHrabal">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#strogoPraćeniVlakovi"/>
+        <Bookstan2023:addressCountry>Češka</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Bogumil Hrabal</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#booka -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#booka">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Organization"/>
+        <Bookstan2023:name>Booka</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#borisDežulović -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#borisDežulović">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#specijalDoručakSAutoromBorisDežulović"/>
+        <Bookstan2023:addressCountry>Hrvatska</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Boris Dežulović</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#boroKontić -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#boroKontić">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaPlastelinci"/>
+        <Bookstan2023:name>Boro Kontić</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#burhanSönmez -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#burhanSönmez">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#kamenISjenka"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaKamenISjenka"/>
+        <Bookstan2023:addressCountry>Turska</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Burhan Sönmez</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#chrisKeulemans -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#chrisKeulemans">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaSmirnaGora"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#specijalAktuelniIzazoviBalkanskogIdentiteta"/>
+        <Bookstan2023:name>Chris Keulemans</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#clariceLispector -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#clariceLispector">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#evolucijaJedneKratkovidostiIDrugePriče"/>
+        <Bookstan2023:addressCountry>Brazil</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Clarice Lispector</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#colmTóibín -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#colmTóibín">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#čarobnjak"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#zatvaranjeBookstana"/>
+        <Bookstan2023:addressCountry>Irska</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Colm Tóibín</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#crniLeptiri -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#crniLeptiri">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:name>Crni leptiri</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#dallasRecords -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#dallasRecords">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Organization"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#sinPustinje"/>
+        <Bookstan2023:name>Dallas Records</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#damirImamović -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#damirImamović">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#sinPustinje"/>
+        <Bookstan2023:performer rdf:resource="http://www.semanticweb.org/Bookstan2023#koncertSinPustinje"/>
+        <Bookstan2023:addressCountry>Bosna i Hercegovina</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Damir Imamović</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#damirOvčina -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#damirOvčina">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaŠkriptajiKože"/>
+        <Bookstan2023:addressCountry>Bosna i Hercegovina</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Damir Ovčina</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#damirUzunović -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#damirUzunović">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:employee rdf:resource="http://www.semanticweb.org/Bookstan2023#izdavačBuybook"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#pressKonferencija"/>
+        <Bookstan2023:name>Damir Uzunović</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#darkoCvijetić -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#darkoCvijetić">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#nakupineStraha"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#specijalDoručakSAutoromDarkoCvijetić"/>
+        <Bookstan2023:addressCountry>Bosna i Hercegovina</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Darko Cvijetić</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#dječakČak -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#dječakČak">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaDječakČakIEna"/>
+        <Bookstan2023:name>Dječak Čak</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#dodjelaNagradaRadionica -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#dodjelaNagradaRadionica">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#SocialEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#knjižaraBuybook"/>
+        <Bookstan2023:dateTime>&quot;2023-07-08T21:30:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Poseban događaj</Bookstan2023:eventType>
+        <Bookstan2023:name>Dodjela nagrada osme Bookstanove radionice za književnu kritiku</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#draganaĐokić -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#draganaĐokić">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaAutofikcija"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaBudiVjeranIdi"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaCriticizeMe"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaFinaliziranjeGlavnogZadatka1"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaFinaliziranjeGlavnogZadatka2"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaKakoČitatiIPisatiOpasno"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOpasnoNerazumijevanjeKnjiževnogTeksta"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOtvoreniKraj"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOtvoreniKrajZatvaranjeRadionice"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaPreuzimajućiRizikKaoČitalacIPisac"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaRazradaDrugogZadatka"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaRiječiMemorijeIRiječiPrirode"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#dodjelaNagradaRadionica"/>
+        <Bookstan2023:name>Dragana Đokić</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#dunjaIlić -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#dunjaIlić">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaCrniLeptiri"/>
+        <Bookstan2023:name>Dunja Ilić</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#edisBilić -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#edisBilić">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:contributor rdf:resource="http://www.semanticweb.org/Bookstan2023#predstavaKućaUUliciMango"/>
+        <Bookstan2023:name>Edis Bilić</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#emaZenunović -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#emaZenunović">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaMožeIDrugačije"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaNajusamljenijaAjkulaUMoru2"/>
+        <Bookstan2023:name>Ema Zenunuović</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#emilijaVučićević -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#emilijaVučićević">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaAutofikcija"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaBudiVjeranIdi"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaCriticizeMe"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaFinaliziranjeGlavnogZadatka1"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaFinaliziranjeGlavnogZadatka2"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaKakoČitatiIPisatiOpasno"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOpasnoNerazumijevanjeKnjiževnogTeksta"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOtvoreniKraj"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOtvoreniKrajZatvaranjeRadionice"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaPreuzimajućiRizikKaoČitalacIPisac"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaRazradaDrugogZadatka"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaRiječiMemorijeIRiječiPrirode"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#dodjelaNagradaRadionica"/>
+        <Bookstan2023:award>Specijalna nagrada</Bookstan2023:award>
+        <Bookstan2023:name>Emilija Vučićević</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#emirImamovićPirke -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#emirImamovićPirke">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#specijalDoručakSAutoromBorisDežulović"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#specijalDoručakSAutoromDarkoCvijetić"/>
+        <Bookstan2023:name>Emir Imamović Pirke</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#emirŠaković -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#emirŠaković">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:addressCountry>Bosna i Hercegovina</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Emir Šaković</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#ena -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#ena">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaDječakČakIEna"/>
+        <Bookstan2023:name>Ena</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#evolucijaJedneKratkovidostiIDrugePriče -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#evolucijaJedneKratkovidostiIDrugePriče">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaEvolucijaJedneKratkovidostiIDrugePriče"/>
+        <Bookstan2023:name>Evolucija jedne kratkovidosti i druge priče</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#farahTahirbegović -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#farahTahirbegović">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:addressCountry>Bosna i Hercegovina</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Farah Tahirbegović</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#farukŠehić -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#farukŠehić">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:name>Faruk Šehić</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#fraktura -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#fraktura">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Organization"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#hotelWartburg"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#ljetaSMarijom"/>
+        <Bookstan2023:name>Fraktura</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#goetheInstitutBiH -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#goetheInstitutBiH">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#EventVenue"/>
+        <Bookstan2023:name>Goethe-Institut BiH</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#grafomark -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#grafomark">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Organization"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#pjesmeIzPouzadnihIzvoraTuristUNevolji"/>
+        <Bookstan2023:name>Grafomark</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#guidoSnel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#guidoSnel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#smirnaGora"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaSmirnaGora"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#specijalAktuelniIzazoviBalkanskogIdentiteta"/>
+        <Bookstan2023:addressCountry>Nizozemska</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Guido Snel</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#hannaMujagić -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#hannaMujagić">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:illustrator rdf:resource="http://www.semanticweb.org/Bookstan2023#dječakČak"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaDječakČakIEna"/>
+        <Bookstan2023:name>Hanna Mujagić</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#hasanZahirović -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#hasanZahirović">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaStrogoPraćeniVlakovi"/>
+        <Bookstan2023:translator rdf:resource="http://www.semanticweb.org/Bookstan2023#strogoPraćeniVlakovi"/>
+        <Bookstan2023:name>Hasan Zahirović</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#helenOGreadyAcademySarajevo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#helenOGreadyAcademySarajevo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Organization"/>
+        <Bookstan2023:contributor rdf:resource="http://www.semanticweb.org/Bookstan2023#predstavaKućaUUliciMango"/>
+        <Bookstan2023:performer rdf:resource="http://www.semanticweb.org/Bookstan2023#predstavaKućaUUliciMango"/>
+        <Bookstan2023:name>Helen O&apos;Gready Academy Sarajevo</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#historijskiMuzejBiH -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#historijskiMuzejBiH">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#EventVenue"/>
+        <Bookstan2023:name>Historijski muzej BiH</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#hotelColorsInn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#hotelColorsInn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#EventVenue"/>
+        <Bookstan2023:name>Hotel Colors Inn</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#hotelWartburg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#hotelWartburg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaHotelWartburg"/>
+        <Bookstan2023:name>Hotel Wartburg</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#hrvatskoDruštvoPisaca -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#hrvatskoDruštvoPisaca">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Organization"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#versschmuggelKrijumčarenjeStihova"/>
+        <Bookstan2023:addressCountry>Hrvatska</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Hrvatsko društvo pisaca</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#imaginarniBalkan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#imaginarniBalkan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPublishedBy rdf:resource="http://www.semanticweb.org/Bookstan2023#izdavačBuybook"/>
+        <Bookstan2023:name>Imaginarni Balkan</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#ismetDilaver -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#ismetDilaver">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaAutofikcija"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaBudiVjeranIdi"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaCriticizeMe"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaFinaliziranjeGlavnogZadatka1"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaFinaliziranjeGlavnogZadatka2"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaKakoČitatiIPisatiOpasno"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOpasnoNerazumijevanjeKnjiževnogTeksta"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOtvoreniKraj"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOtvoreniKrajZatvaranjeRadionice"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaPreuzimajućiRizikKaoČitalacIPisac"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaRazradaDrugogZadatka"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaRiječiMemorijeIRiječiPrirode"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#dodjelaNagradaRadionica"/>
+        <Bookstan2023:name>Ismet Dilaver</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#ismetPrcić -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#ismetPrcić">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#specijalBalkanskiAutoriUOčimaZapada"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaŠušanj"/>
+        <Bookstan2023:name>Ismet Prcić</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#ivanMihajlović -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#ivanMihajlović">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:performer rdf:resource="http://www.semanticweb.org/Bookstan2023#koncertSinPustinje"/>
+        <Bookstan2023:name>Ivan Mihajlović</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#ivanaBilić -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#ivanaBilić">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaKakoNoćOdmiče"/>
+        <Bookstan2023:name>Ivana Bilić</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#ivanaGolijanin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#ivanaGolijanin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaNikoNijeZaboravljenINičegaSeNeSjećamo"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaPoljeKruški"/>
+        <Bookstan2023:name>Ivana Golijanin</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#ivanČolović -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#ivanČolović">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#specijalAktuelniIzazoviBalkanskogIdentiteta"/>
+        <Bookstan2023:name>Ivan Čolović</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#izdavačBuybook -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#izdavačBuybook">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Organization"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#bajkaUBajci"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#crniLeptiri"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#dječakČak"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#ena"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#evolucijaJedneKratkovidostiIDrugePriče"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#kakoNoćOdmiče"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#kamenISjenka"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#magičneBojice"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#maliTigar"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#možeIDrugačije"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#najusamljenijaAjkulaUMoru"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#nakupineStraha"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#nemojDaIdešDušo"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#nigdjezemska"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#noviKraj"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#očevidac"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#pedeset"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#perjeBiserje"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#pismaČitateljici"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#plastelinci"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#polaroidKauboj"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#smirnaGora"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#vrataTajni"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#zlatniGeler"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#čarobnjak"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#čudesniSvijet"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#škriptajiKože"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#ženaBezStida"/>
+        <Bookstan2023:name>Izdavač Buybook</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#izložbaNaslovnice -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#izložbaNaslovnice">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#ExhibitionEvent"/>
+        <Bookstan2023:name>Izložba Naslovnice koje nisu postale naslovnice</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#jagnaPogačnik -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#jagnaPogačnik">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaHotelWartburg"/>
+        <Bookstan2023:name>Jagna Pogačnik</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#jakutaAlikavazović -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#jakutaAlikavazović">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#kakoNoćOdmiče"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaKakoNoćOdmiče"/>
+        <Bookstan2023:addressCountry>Francuska</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Jakuta Alikavazović</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#jasnaKaraula -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#jasnaKaraula">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaŽenaBezStida"/>
+        <Bookstan2023:name>Jasna Karaula</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#jasnaMujkić -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#jasnaMujkić">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaPlastelinci"/>
+        <Bookstan2023:name>Jasna Mujkić</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#jelenaMarinkov -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#jelenaMarinkov">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaAutofikcija"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaBudiVjeranIdi"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaCriticizeMe"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaFinaliziranjeGlavnogZadatka1"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaFinaliziranjeGlavnogZadatka2"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaKakoČitatiIPisatiOpasno"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOpasnoNerazumijevanjeKnjiževnogTeksta"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOtvoreniKraj"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOtvoreniKrajZatvaranjeRadionice"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaPreuzimajućiRizikKaoČitalacIPisac"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaRazradaDrugogZadatka"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaRiječiMemorijeIRiječiPrirode"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#dodjelaNagradaRadionica"/>
+        <Bookstan2023:name>Jelena Marinkov</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#johnFreeman -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#johnFreeman">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#najusamljenijaAjkulaUMoru"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaNajusamljenijaAjkulaUMoru"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaNajusamljenijaAjkulaUMoru2"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaOčevidac"/>
+        <Bookstan2023:addressCountry>SAD</Bookstan2023:addressCountry>
+        <Bookstan2023:name>John Freeman</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#julijanaLešić -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#julijanaLešić">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaAutofikcija"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaBudiVjeranIdi"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaCriticizeMe"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaFinaliziranjeGlavnogZadatka1"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaFinaliziranjeGlavnogZadatka2"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaKakoČitatiIPisatiOpasno"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOpasnoNerazumijevanjeKnjiževnogTeksta"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOtvoreniKraj"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOtvoreniKrajZatvaranjeRadionice"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaPreuzimajućiRizikKaoČitalacIPisac"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaRazradaDrugogZadatka"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaRiječiMemorijeIRiječiPrirode"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#kritikaPismaČitateljici"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#dodjelaNagradaRadionica"/>
+        <Bookstan2023:name>Julijana Lešić</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#juricaPavičić -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#juricaPavičić">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#materDolorosa"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaMaterDolorosa"/>
+        <Bookstan2023:addressCountry>Hrvatska</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Jurica Pavičić</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#kakoNoćOdmiče -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#kakoNoćOdmiče">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaKakoNoćOdmiče"/>
+        <Bookstan2023:name>Kako noć odmiče</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#kamenISjenka -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#kamenISjenka">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaKamenISjenka"/>
+        <Bookstan2023:name>Kamen i Sjenka</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#katarinaLuketić -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#katarinaLuketić">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#specijalBalkanskiAutoriUOčimaZapada"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaMaterDolorosa"/>
+        <Bookstan2023:name>Katarina Luketić</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#knjižaraBuybook -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#knjižaraBuybook">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#EventVenue"/>
+        <Bookstan2023:name>Knjižara Buybook</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#koncertSinPustinje -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#koncertSinPustinje">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#MusicEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#knjižaraBuybook"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#sinPustinje"/>
+        <Bookstan2023:dateTime>&quot;2023-07-05T20:30:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:name>Izvedba pjesama s albuma Sin pustinje</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#kritikaNakupineStraha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#kritikaNakupineStraha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Article"/>
+        <Bookstan2023:isReviewOf rdf:resource="http://www.semanticweb.org/Bookstan2023#nakupineStraha"/>
+        <Bookstan2023:wasWrittenBy rdf:resource="http://www.semanticweb.org/Bookstan2023#nenadKostić"/>
+        <Bookstan2023:name>Dezorganizacija govora rata u knjizi Nakupine straha Darka Cvijetića</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#kritikaNoviKraj -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#kritikaNoviKraj">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Article"/>
+        <Bookstan2023:isReviewOf rdf:resource="http://www.semanticweb.org/Bookstan2023#noviKraj"/>
+        <Bookstan2023:wasWrittenBy rdf:resource="http://www.semanticweb.org/Bookstan2023#majaKovač"/>
+        <Bookstan2023:name>O nepodnošljivoj ljepoti fragmentiranosti Đurđica Čilić, Novi kraj</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#kritikaOnaKojaOstaje -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#kritikaOnaKojaOstaje">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Article"/>
+        <Bookstan2023:isReviewOf rdf:resource="http://www.semanticweb.org/Bookstan2023#onaKojaOstaje"/>
+        <Bookstan2023:wasWrittenBy rdf:resource="http://www.semanticweb.org/Bookstan2023#emilijaVučićević"/>
+        <Bookstan2023:name>haljine sin(j)e Rene Karabaš, Ona koja ostaje</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#kritikaOčevidac -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#kritikaOčevidac">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Article"/>
+        <Bookstan2023:isReviewOf rdf:resource="http://www.semanticweb.org/Bookstan2023#očevidac"/>
+        <Bookstan2023:wasWrittenBy rdf:resource="http://www.semanticweb.org/Bookstan2023#ismetDilaver"/>
+        <Bookstan2023:name>Narativ u fragmentima: očevidac John Freeman</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#kritikaPedeset -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#kritikaPedeset">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Article"/>
+        <Bookstan2023:isReviewOf rdf:resource="http://www.semanticweb.org/Bookstan2023#pedeset"/>
+        <Bookstan2023:wasWrittenBy rdf:resource="http://www.semanticweb.org/Bookstan2023#stanislavaPaunović"/>
+        <Bookstan2023:name>Priručnik i/ili dnevnik upitne književne vrijednosti Sanela Mihalić, Pedeset: Priručnik za ljubav i mržnju majki i kćerki</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#kritikaPismaČitateljici -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#kritikaPismaČitateljici">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Article"/>
+        <Bookstan2023:isReviewOf rdf:resource="http://www.semanticweb.org/Bookstan2023#pismaČitateljici"/>
+        <Bookstan2023:name>Pisma čitateljici kao feministički manifest? Olja Savičević Ivančević: Prima čitateljici</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#kritikaStrogoPraćeniVlakovi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#kritikaStrogoPraćeniVlakovi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Article"/>
+        <Bookstan2023:isReviewOf rdf:resource="http://www.semanticweb.org/Bookstan2023#strogoPraćeniVlakovi"/>
+        <Bookstan2023:wasWrittenBy rdf:resource="http://www.semanticweb.org/Bookstan2023#pabloSrdanović"/>
+        <Bookstan2023:name>Kritička olovka, balkanska optika i klasik češke književnosti Bohumil Hrabal, Strogo praćeni vlakovi</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#kritikaVrataTajni -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#kritikaVrataTajni">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Article"/>
+        <Bookstan2023:isReviewOf rdf:resource="http://www.semanticweb.org/Bookstan2023#vrataTajni"/>
+        <Bookstan2023:wasWrittenBy rdf:resource="http://www.semanticweb.org/Bookstan2023#draganaĐokić"/>
+        <Bookstan2023:name>Potraga za istinom Ahmet Ümit, Vrata tajni</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#kritikaČarobnjak -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#kritikaČarobnjak">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Article"/>
+        <Bookstan2023:isReviewOf rdf:resource="http://www.semanticweb.org/Bookstan2023#čarobnjak"/>
+        <Bookstan2023:wasWrittenBy rdf:resource="http://www.semanticweb.org/Bookstan2023#sanitaDelić"/>
+        <Bookstan2023:name>Čarobnjak: Između latentnih težnji i ostvarenja</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#kritikaŠušanj -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#kritikaŠušanj">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Article"/>
+        <Bookstan2023:isReviewOf rdf:resource="http://www.semanticweb.org/Bookstan2023#šušanj"/>
+        <Bookstan2023:wasWrittenBy rdf:resource="http://www.semanticweb.org/Bookstan2023#zejnebaHajdarević"/>
+        <Bookstan2023:name>Glasne tišine rasklimanog svijeta Almin Kaplan, Šušanj</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#kritikaŽenaBezStida -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#kritikaŽenaBezStida">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Article"/>
+        <Bookstan2023:isReviewOf rdf:resource="http://www.semanticweb.org/Bookstan2023#ženaBezStida"/>
+        <Bookstan2023:wasWrittenBy rdf:resource="http://www.semanticweb.org/Bookstan2023#marijaPavkovićBaković"/>
+        <Bookstan2023:name>Putovanje ka autentičnosti Sandra Cisneros, Žena bez stida</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#kućaUUliciMango -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#kućaUUliciMango">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaKućaUUliciMango"/>
+        <Bookstan2023:name>Kuća u ulici Mango</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#laguna -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#laguna">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Organization"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#kućaUUliciMango"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#đubreKnjigaStraveIUžasa"/>
+        <Bookstan2023:name>Laguna</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#lamijaBegagić -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#lamijaBegagić">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaPlastelinci"/>
+        <Bookstan2023:name>Lamija Begagić</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#lamijaMilišić -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#lamijaMilišić">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:employee rdf:resource="http://www.semanticweb.org/Bookstan2023#izdavačBuybook"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#pressKonferencija"/>
+        <Bookstan2023:name>Lamija Milišić</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#ljetaSMarijom -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#ljetaSMarijom">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaPismaČitateljiciILjetaSMarijom"/>
+        <Bookstan2023:name>Ljeta s Marijom</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#magičneBojice -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#magičneBojice">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaMagičneBojiceIPerjeBiserje"/>
+        <Bookstan2023:name>Magične bojice</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#majaKovač -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#majaKovač">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaAutofikcija"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaBudiVjeranIdi"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaCriticizeMe"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaFinaliziranjeGlavnogZadatka1"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaFinaliziranjeGlavnogZadatka2"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaKakoČitatiIPisatiOpasno"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOpasnoNerazumijevanjeKnjiževnogTeksta"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOtvoreniKraj"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOtvoreniKrajZatvaranjeRadionice"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaPreuzimajućiRizikKaoČitalacIPisac"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaRazradaDrugogZadatka"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaRiječiMemorijeIRiječiPrirode"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#dodjelaNagradaRadionica"/>
+        <Bookstan2023:name>Maja Kovač</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#maliTigar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#maliTigar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaČudesniSvijeteIMaliTigar"/>
+        <Bookstan2023:wasWrittenBy rdf:resource="http://www.semanticweb.org/Bookstan2023#vesnaMišanović"/>
+        <Bookstan2023:name>Mali tigar</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#marijaPavkovićBaković -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#marijaPavkovićBaković">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaAutofikcija"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaBudiVjeranIdi"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaCriticizeMe"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaFinaliziranjeGlavnogZadatka1"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaFinaliziranjeGlavnogZadatka2"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaKakoČitatiIPisatiOpasno"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOpasnoNerazumijevanjeKnjiževnogTeksta"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOtvoreniKraj"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOtvoreniKrajZatvaranjeRadionice"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaPreuzimajućiRizikKaoČitalacIPisac"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaRazradaDrugogZadatka"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaRiječiMemorijeIRiječiPrirode"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#dodjelaNagradaRadionica"/>
+        <Bookstan2023:name>Marija Pavković Baković</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#marijaSmoljan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#marijaSmoljan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaAutofikcija"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaBudiVjeranIdi"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaCriticizeMe"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaFinaliziranjeGlavnogZadatka1"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaFinaliziranjeGlavnogZadatka2"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaKakoČitatiIPisatiOpasno"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOpasnoNerazumijevanjeKnjiževnogTeksta"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOtvoreniKraj"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOtvoreniKrajZatvaranjeRadionice"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaPreuzimajućiRizikKaoČitalacIPisac"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaRazradaDrugogZadatka"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaRiječiMemorijeIRiječiPrirode"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#dodjelaNagradaRadionica"/>
+        <Bookstan2023:name>Marija Smoljan</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#marijaTodorova -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#marijaTodorova">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#imaginarniBalkan"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#otvaranjeBookstana"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#specijalAktuelniIzazoviBalkanskogIdentiteta"/>
+        <Bookstan2023:addressCountry>Bugarska</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Marija Todorova</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#markoVidojković -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#markoVidojković">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#đubreKnjigaStraveIUžasa"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaĐubreKnjigaStraveIUžasa"/>
+        <Bookstan2023:addressCountry>Srbija</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Marko Vidojković</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#martinaReč -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#martinaReč">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:illustrator rdf:resource="http://www.semanticweb.org/Bookstan2023#ena"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaDječakČakIEna"/>
+        <Bookstan2023:name>Martina Reč</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#matejVrebac -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#matejVrebac">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaPolaroidKauboj"/>
+        <Bookstan2023:name>Matej Vrebac</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#materDolorosa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#materDolorosa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaMaterDolorosa"/>
+        <Bookstan2023:name>Mater Dolorosa</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#mirjanaDrljević -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#mirjanaDrljević">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#nikoNijeZaboravljenINičegaSeNeSjećamo"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaNikoNijeZaboravljenINičegaSeNeSjećamo"/>
+        <Bookstan2023:addressCountry>Srbija</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Mirjana Drljević</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#mirsadAbdagićKike -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#mirsadAbdagićKike">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaČudesniSvijeteIMaliTigar"/>
+        <Bookstan2023:name>Mirsad Abdagić Kike</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#možeIDrugačije -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#možeIDrugačije">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaMožeIDrugačije"/>
+        <Bookstan2023:name>Može i drugačije!</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#najusamljenijaAjkulaUMoru -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#najusamljenijaAjkulaUMoru">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:name>Najusamljenija ajkula u moru</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#nakupineStraha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#nakupineStraha">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#specijalDoručakSAutoromDarkoCvijetić"/>
+        <Bookstan2023:name>Nakupine staraha</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#nanaEkvtimishvili -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#nanaEkvtimishvili">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#poljeKruški"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaPoljeKruški"/>
+        <Bookstan2023:addressCountry>Gruzija</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Nana Ekvtimishvili</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#nemojDaIdešDušo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#nemojDaIdešDušo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#specijalInMemoriamFarahTahirbegovićIEmirŠaković"/>
+        <Bookstan2023:wasWrittenBy rdf:resource="http://www.semanticweb.org/Bookstan2023#farahTahirbegović"/>
+        <Bookstan2023:name>Nemoj da ideš, dušo</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#nenadKostić -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#nenadKostić">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaAutofikcija"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaBudiVjeranIdi"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaCriticizeMe"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaFinaliziranjeGlavnogZadatka1"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaFinaliziranjeGlavnogZadatka2"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaKakoČitatiIPisatiOpasno"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOpasnoNerazumijevanjeKnjiževnogTeksta"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOtvoreniKraj"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOtvoreniKrajZatvaranjeRadionice"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaPreuzimajućiRizikKaoČitalacIPisac"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaRazradaDrugogZadatka"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaRiječiMemorijeIRiječiPrirode"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#dodjelaNagradaRadionica"/>
+        <Bookstan2023:name>Nenad Kostić</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#nenadVeličković -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#nenadVeličković">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#plastelinci"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaPlastelinci"/>
+        <Bookstan2023:addressCountry>Bosna i Hercegovina</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Nenad Veličković</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#nerzukĆurak -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#nerzukĆurak">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#specijalAktuelniIzazoviBalkanskogIdentiteta"/>
+        <Bookstan2023:name>Nerzuk Ćurak</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#nigdjezemska -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#nigdjezemska">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaBajkaUBajciINigdjezemska"/>
+        <Bookstan2023:wasWrittenBy rdf:resource="http://www.semanticweb.org/Bookstan2023#ahmetÜmit"/>
+        <Bookstan2023:name>Nigdjezemska</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#nikoNijeZaboravljenINičegaSeNeSjećamo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#nikoNijeZaboravljenINičegaSeNeSjećamo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPublishedBy rdf:resource="http://www.semanticweb.org/Bookstan2023#booka"/>
+        <Bookstan2023:name>Niko nije zaboravljen i ničega se ne sjećamo</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#noviKraj -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#noviKraj">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:dateTime>Novi kraj</Bookstan2023:dateTime>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#oljaSavičevićIvančević -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#oljaSavičevićIvančević">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#ljetaSMarijom"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#pismaČitateljici"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaPismaČitateljiciILjetaSMarijom"/>
+        <Bookstan2023:addressCountry>Hrvatska</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Olja Savičević Ivančević</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#onaKojaOstaje -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#onaKojaOstaje">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPublishedBy rdf:resource="http://www.semanticweb.org/Bookstan2023#izdavačBuybook"/>
+        <Bookstan2023:name>Ona koja ostaje</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#otvaranjeBookstana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#otvaranjeBookstana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#SocialEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#knjižaraBuybook"/>
+        <Bookstan2023:subEvent rdf:resource="http://www.semanticweb.org/Bookstan2023#koncertSinPustinje"/>
+        <Bookstan2023:dateTime>&quot;2023-07-05T18:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Poseban događaj</Bookstan2023:eventType>
+        <Bookstan2023:name>Otvaranje festivala Bookstan</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#otvoreniKulturniForum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#otvoreniKulturniForum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Organization"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#versschmuggelKrijumčarenjeStihova"/>
+        <Bookstan2023:name>Otvoreni kulturni forum</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#očevidac -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#očevidac">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaOčevidac"/>
+        <Bookstan2023:wasWrittenBy rdf:resource="http://www.semanticweb.org/Bookstan2023#johnFreeman"/>
+        <Bookstan2023:name>Očevidac</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#pabloSrdanović -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#pabloSrdanović">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaAutofikcija"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaBudiVjeranIdi"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaCriticizeMe"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaFinaliziranjeGlavnogZadatka1"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaFinaliziranjeGlavnogZadatka2"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaKakoČitatiIPisatiOpasno"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOpasnoNerazumijevanjeKnjiževnogTeksta"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOtvoreniKraj"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOtvoreniKrajZatvaranjeRadionice"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaPreuzimajućiRizikKaoČitalacIPisac"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaRazradaDrugogZadatka"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaRiječiMemorijeIRiječiPrirode"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#dodjelaNagradaRadionica"/>
+        <Bookstan2023:award>2. nagrada</Bookstan2023:award>
+        <Bookstan2023:name>Pablo Srdanović</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#pedeset -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#pedeset">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaPedeset"/>
+        <Bookstan2023:name>Pedeset</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#penCentar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#penCentar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Organization"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#versschmuggelKrijumčarenjeStihova"/>
+        <Bookstan2023:name>P.E.N. Centar</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#perjeBiserje -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#perjeBiserje">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaMagičneBojiceIPerjeBiserje"/>
+        <Bookstan2023:name>Perje biserje</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#pismaČitateljici -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#pismaČitateljici">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaPismaČitateljiciILjetaSMarijom"/>
+        <Bookstan2023:name>Pisma čitateljici</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#pjesmeIzPouzadnihIzvoraTuristUNevolji -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#pjesmeIzPouzadnihIzvoraTuristUNevolji">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#specijalInMemoriamFarahTahirbegovićIEmirŠaković"/>
+        <Bookstan2023:wasWrittenBy rdf:resource="http://www.semanticweb.org/Bookstan2023#emirŠaković"/>
+        <Bookstan2023:name>Pjesme iz pouzdanih izvora; Turist u nevolji</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#plastelinci -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#plastelinci">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaPlastelinci"/>
+        <Bookstan2023:name>Plastelinci</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#polaroidKauboj -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#polaroidKauboj">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#možeIDrugačije"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaPolaroidKauboj"/>
+        <Bookstan2023:name>Polaroid kauboj</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#poljeKruški -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#poljeKruški">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPublishedBy rdf:resource="http://www.semanticweb.org/Bookstan2023#izdavačBuybook"/>
+        <Bookstan2023:eventType>Polje kruški</Bookstan2023:eventType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#ppmEnklave -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#ppmEnklave">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Organization"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#versschmuggelKrijumčarenjeStihova"/>
+        <Bookstan2023:name>PPM enklave</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#predstavaKućaUUliciMango -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#predstavaKućaUUliciMango">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#TheaterEvent"/>
+        <Bookstan2023:dateTime>&quot;2023-07-07T12:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Mladi kutak</Bookstan2023:eventType>
+        <Bookstan2023:name>Predstava zasnovana na knjizi Kuća u Ulici Mango</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#pressKonferencija -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#pressKonferencija">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#SocialEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#knjižaraBuybook"/>
+        <Bookstan2023:dateTime>&quot;2023-06-30&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Poseban događaj</Bookstan2023:eventType>
+        <Bookstan2023:name>Press konferencija povodom otvaranja Bookstana</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#priscillaMorris -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#priscillaMorris">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#crniLeptiri"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaCrniLeptiri"/>
+        <Bookstan2023:addressCountry>Velika Britanija</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Priscilla Morris</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaBajkaUBajciINigdjezemska -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaBajkaUBajciINigdjezemska">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#ChildrensEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#američkiKutakSarajevo"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#bajkaUBajci"/>
+        <Bookstan2023:dateTime>&quot;2023-07-06T12:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Mladi kutak</Bookstan2023:eventType>
+        <Bookstan2023:name>Promocija knjiga Bajka u bajci i Nigdjezemska</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaCrniLeptiri -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaCrniLeptiri">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#LiteraryEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#akademijaLikovnihUmjetnosti"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#crniLeptiri"/>
+        <Bookstan2023:dateTime>&quot;2023-07-06T19:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Glavni program</Bookstan2023:eventType>
+        <Bookstan2023:name>Promocija knjige Crni leptiri</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaDječakČakIEna -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaDječakČakIEna">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#ChildrensEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#američkiKutakSarajevo"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#dječakČak"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#ena"/>
+        <Bookstan2023:dateTime>&quot;2023-07-06T13:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Mladi kutak</Bookstan2023:eventType>
+        <Bookstan2023:name>Promocija knjiga Dječak Čak i Ena</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaEvolucijaJedneKratkovidostiIDrugePriče -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaEvolucijaJedneKratkovidostiIDrugePriče">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#LiteraryEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#knjižaraBuybook"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#evolucijaJedneKratkovidostiIDrugePriče"/>
+        <Bookstan2023:dateTime>&quot;2023-07-06T13:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Glavni program</Bookstan2023:eventType>
+        <Bookstan2023:name>Promocija knjige Evolucija jedne kratkovidosti i druge priče</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaHotelWartburg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaHotelWartburg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#LiteraryEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#knjižaraBuybook"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#hotelWartburg"/>
+        <Bookstan2023:dateTime>&quot;2023-07-07T16:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Glavni program</Bookstan2023:eventType>
+        <Bookstan2023:name>Promocija knjige Hotel Wartburg</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaKakoNoćOdmiče -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaKakoNoćOdmiče">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#LiteraryEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#knjižaraBuybook"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#kakoNoćOdmiče"/>
+        <Bookstan2023:dateTime>&quot;2023-07-08T17:30:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Glavni program</Bookstan2023:eventType>
+        <Bookstan2023:name>Promocija knjige Kako noć odmiče</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaKamenISjenka -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaKamenISjenka">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#LiteraryEvent"/>
+        <Bookstan2023:hasSpoken rdf:resource="http://www.semanticweb.org/Bookstan2023#johnFreeman"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#knjižaraBuybook"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#kamenISjenka"/>
+        <Bookstan2023:dateTime>&quot;2023-07-07T20:30:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Glavni program</Bookstan2023:eventType>
+        <Bookstan2023:name>Promocija knjige Kamen i sjenka</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaKućaUUliciMango -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaKućaUUliciMango">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#ChildrensEvent"/>
+        <Bookstan2023:hasSpoken rdf:resource="http://www.semanticweb.org/Bookstan2023#amraMutapčićČengić"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#američkiKutakSarajevo"/>
+        <Bookstan2023:subEvent rdf:resource="http://www.semanticweb.org/Bookstan2023#predstavaKućaUUliciMango"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#kućaUUliciMango"/>
+        <Bookstan2023:dateTime>&quot;2023-07-07T12:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Mladi kutak</Bookstan2023:eventType>
+        <Bookstan2023:name>Promocija knjige Kuća u Ulici Mango</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaMagičneBojiceIPerjeBiserje -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaMagičneBojiceIPerjeBiserje">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#ChildrensEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#američkiKutakBrčko"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#magičneBojice"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#perjeBiserje"/>
+        <Bookstan2023:dateTime>&quot;2023-07-06T12:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Bookstan Distrikt</Bookstan2023:eventType>
+        <Bookstan2023:name>Promocija knjiga Magične bojice i Perje biserje</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaMaterDolorosa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaMaterDolorosa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#LiteraryEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#knjižaraBuybook"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#materDolorosa"/>
+        <Bookstan2023:dateTime>&quot;2023-07-08T13:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Glavni program</Bookstan2023:eventType>
+        <Bookstan2023:name>Promocija knjige Mater Dolorosa</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaMožeIDrugačije -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaMožeIDrugačije">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#ChildrensEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#američkiKutakBrčko"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#možeIDrugačije"/>
+        <Bookstan2023:dateTime>&quot;2023-07-06T14:15:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Bookstan Distrikt</Bookstan2023:eventType>
+        <Bookstan2023:name>Promocija knjige Može i drugačije!</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaMožeIDrugačije2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaMožeIDrugačije2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#ChildrensEvent"/>
+        <Bookstan2023:hasParticipated rdf:resource="http://www.semanticweb.org/Bookstan2023#asliTohumcu"/>
+        <Bookstan2023:hasSpoken rdf:resource="http://www.semanticweb.org/Bookstan2023#amraMutapčićČengić"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#američkiKutakSarajevo"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#možeIDrugačije"/>
+        <Bookstan2023:dateTime>&quot;2023-07-08T13:00:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Mladi kutak</Bookstan2023:eventType>
+        <Bookstan2023:name>Druga promocija knjige Može i drugčije</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaNajusamljenijaAjkulaUMoru -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaNajusamljenijaAjkulaUMoru">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#ChildrensEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#američkiKutakSarajevo"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#najusamljenijaAjkulaUMoru"/>
+        <Bookstan2023:dateTime>&quot;2023-07-05T13:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Mladi kutak</Bookstan2023:eventType>
+        <Bookstan2023:name>Promocija knjige Najusamljenija ajkula u moru</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaNajusamljenijaAjkulaUMoru2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaNajusamljenijaAjkulaUMoru2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#ChildrensEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#američkiKutakBrčko"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#najusamljenijaAjkulaUMoru"/>
+        <Bookstan2023:dateTime>&quot;2023-07-06T13:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Bookstan Distrikt</Bookstan2023:eventType>
+        <Bookstan2023:name>Druga promocija knjige Najusamljenija ajkula u moru</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaNikoNijeZaboravljenINičegaSeNeSjećamo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaNikoNijeZaboravljenINičegaSeNeSjećamo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#LiteraryEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#knjižaraBuybook"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#nikoNijeZaboravljenINičegaSeNeSjećamo"/>
+        <Bookstan2023:dateTime>&quot;20023-07-05T12:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Glavni program</Bookstan2023:eventType>
+        <Bookstan2023:name>Promocija knjige Niko nije zaboravljen i ničega se ne sjećamo</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaNoviKraj -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaNoviKraj">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#LiteraryEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#akademijaLikovnihUmjetnosti"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#noviKraj"/>
+        <Bookstan2023:dateTime>&quot;2023-07-06T16:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Glavni program</Bookstan2023:eventType>
+        <Bookstan2023:name>Promocija knjige Novi kraj</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaOnaKojaOstaje -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaOnaKojaOstaje">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#LiteraryEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#knjižaraBuybook"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#onaKojaOstaje"/>
+        <Bookstan2023:dateTime>&quot;2023-07-05T14:30:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Glavni program</Bookstan2023:eventType>
+        <Bookstan2023:name>Promocija knjige Ona koja ostaje</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaOčevidac -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaOčevidac">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#LiteraryEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#knjižaraBuybook"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#očevidac"/>
+        <Bookstan2023:dateTime>&quot;2023-07-08T19:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Glavni program</Bookstan2023:eventType>
+        <Bookstan2023:name>Promocija knjige Očevidac</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaPedeset -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaPedeset">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#LiteraryEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#knjižaraBuybook"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#pedeset"/>
+        <Bookstan2023:dateTime>&quot;2023-07-08T16:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Glavni program</Bookstan2023:eventType>
+        <Bookstan2023:name>Promocija knjige Pedeset</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaPismaČitateljiciILjetaSMarijom -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaPismaČitateljiciILjetaSMarijom">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#LiteraryEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#knjižaraBuybook"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#ljetaSMarijom"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#pismaČitateljici"/>
+        <Bookstan2023:dateTime>&quot;2023-07-07T17:30:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Glavni program</Bookstan2023:eventType>
+        <Bookstan2023:name>Promocija knjiga Pisma čitateljici i Ljeta s Marijom</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaPlastelinci -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaPlastelinci">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#ChildrensEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#historijskiMuzejBiH"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#plastelinci"/>
+        <Bookstan2023:dateTime>&quot;2023-07-07T12:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Mladi kutak</Bookstan2023:eventType>
+        <Bookstan2023:name>Promocija knjige Plastelinci</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaPolaroidKauboj -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaPolaroidKauboj">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#LiteraryEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#knjižaraBuybook"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#polaroidKauboj"/>
+        <Bookstan2023:dateTime>&quot;2023-07-08T12:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Glavni program</Bookstan2023:eventType>
+        <Bookstan2023:name>Promocija knjige Polaroid kauboj</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaPoljeKruški -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaPoljeKruški">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#LiteraryEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#knjižaraBuybook"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#poljeKruški"/>
+        <Bookstan2023:dateTime>&quot;20023-07-05T13:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Glavni program</Bookstan2023:eventType>
+        <Bookstan2023:name>Promocija knjige Polje kruški</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaSmirnaGora -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaSmirnaGora">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#LiteraryEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#knjižaraBuybook"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#smirnaGora"/>
+        <Bookstan2023:dateTime>&quot;2023-07-07T13:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Glavni program</Bookstan2023:eventType>
+        <Bookstan2023:name>Promocija knjige Smirna Gora</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaStrogoPraćeniVlakovi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaStrogoPraćeniVlakovi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#LiteraryEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#knjižaraBuybook"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#strogoPraćeniVlakovi"/>
+        <Bookstan2023:dateTime>&quot;2023-07-05T11:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Glavni program</Bookstan2023:eventType>
+        <Bookstan2023:name>Promocija knjige Strogo praćeni vlakovi</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaVersschmuggelKrijumčarenjeStihova -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaVersschmuggelKrijumčarenjeStihova">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#LiteraryEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#knjižaraBuybook"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#versschmuggelKrijumčarenjeStihova"/>
+        <Bookstan2023:dateTime>&quot;2023-07-06T11:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Glavni program</Bookstan2023:eventType>
+        <Bookstan2023:name>Promocija zbornika VERSschmuggel / Krijumčarenje stihova</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaVrataTajni -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaVrataTajni">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#LiteraryEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#akademijaLikovnihUmjetnosti"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#vrataTajni"/>
+        <Bookstan2023:dateTime>&quot;2023-07-06T20:30:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Glavni program</Bookstan2023:eventType>
+        <Bookstan2023:name>Promocija knjige Vrata tajni</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaZaljubljenaUČitavSvijet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaZaljubljenaUČitavSvijet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#ChildrensEvent"/>
+        <Bookstan2023:hasParticipated rdf:resource="http://www.semanticweb.org/Bookstan2023#oljaSavičevićIvančević"/>
+        <Bookstan2023:hasSpoken rdf:resource="http://www.semanticweb.org/Bookstan2023#lamijaBegagić"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#američkiKutakSarajevo"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#zaljubljenaUČitavSvijet"/>
+        <Bookstan2023:dateTime>&quot;2023-07-08T12:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Mladi kutak</Bookstan2023:eventType>
+        <Bookstan2023:name>Promocija knjige Zaljubljena u čitav svijet</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaZlatniGeler -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaZlatniGeler">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#LiteraryEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#knjižaraBuybook"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#zlatniGeler"/>
+        <Bookstan2023:eventType>&quot;2023-07-07T12:00:00&quot;</Bookstan2023:eventType>
+        <Bookstan2023:eventType>Glavni program</Bookstan2023:eventType>
+        <Bookstan2023:name>Promocija knjige Zlatni geler</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaČudesniSvijeteIMaliTigar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaČudesniSvijeteIMaliTigar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#ChildrensEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#američkiKutakSarajevo"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#maliTigar"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#čudesniSvijet"/>
+        <Bookstan2023:dateTime>&quot;2023-07-05T12:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Mladi kutak</Bookstan2023:eventType>
+        <Bookstan2023:name>Promocija knjiga Čudesni svijet i Mali tigar</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaĐubreKnjigaStraveIUžasa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaĐubreKnjigaStraveIUžasa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#LiteraryEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#knjižaraBuybook"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#đubreKnjigaStraveIUžasa"/>
+        <Bookstan2023:dateTime>&quot;2023-07-06T12:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Glavni program</Bookstan2023:eventType>
+        <Bookstan2023:name>Promocija knjige Đubre: Knjiga strave i užasa</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaŠkriptajiKože -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaŠkriptajiKože">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#LiteraryEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#akademijaLikovnihUmjetnosti"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#škriptajiKože"/>
+        <Bookstan2023:dateTime>&quot;2023-07-06T17:30:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Glavni program</Bookstan2023:eventType>
+        <Bookstan2023:name>Promocija knjige Škriptaji kože</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaŠušanj -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaŠušanj">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#LiteraryEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#knjižaraBuybook"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#šušanj"/>
+        <Bookstan2023:dateTime>&quot;2023-07-05T16:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Glavni program</Bookstan2023:eventType>
+        <Bookstan2023:name>Promocija knjige Šušanj</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#promocijaŽenaBezStida -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#promocijaŽenaBezStida">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#LiteraryEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#akademijaLikovnihUmjetnosti"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#ženaBezStida"/>
+        <Bookstan2023:dateTime>&quot;2023-07-08T14:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Glavni program</Bookstan2023:eventType>
+        <Bookstan2023:name>Promocija knjige Žena bez stida</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#radionicaAutofikcija -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#radionicaAutofikcija">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#EducationEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#goetheInstitutBiH"/>
+        <Bookstan2023:wasInstructedBy rdf:resource="http://www.semanticweb.org/Bookstan2023#dunjaIlić"/>
+        <Bookstan2023:dateTime>dateTime
+&quot;2023-07-03T17:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Radionica</Bookstan2023:eventType>
+        <Bookstan2023:name>Radionica „Autofikcija: ’pravi život’ i književna kritika“</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#radionicaBudiVjeranIdi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#radionicaBudiVjeranIdi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#EducationEvent"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOtvoreniKraj"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#goetheInstitutBiH"/>
+        <Bookstan2023:wasInstructedBy rdf:resource="http://www.semanticweb.org/Bookstan2023#đurđicaČilić"/>
+        <Bookstan2023:dateTime>&quot;2023-07-07T10:45:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Radionica</Bookstan2023:eventType>
+        <Bookstan2023:name>Radionica „Budi vjeran. Idi: o nesigurnosti u poeziji Zbigniewa Herberta“</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#radionicaCriticizeMe -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#radionicaCriticizeMe">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#EducationEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#goetheInstitutBiH"/>
+        <Bookstan2023:wasInstructedBy rdf:resource="http://www.semanticweb.org/Bookstan2023#senkaMarić"/>
+        <Bookstan2023:dateTime>&quot;2023-07-05T10:45:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Radionica</Bookstan2023:eventType>
+        <Bookstan2023:name>Radionica „Criticize me!”</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#radionicaFinaliziranjeGlavnogZadatka1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#radionicaFinaliziranjeGlavnogZadatka1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#EducationEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#goetheInstitutBiH"/>
+        <Bookstan2023:wasInstructedBy rdf:resource="http://www.semanticweb.org/Bookstan2023#selmaRaljević"/>
+        <Bookstan2023:dateTime>&quot;2023-07-03T11:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Radionica</Bookstan2023:eventType>
+        <Bookstan2023:name>Radionica „Finaliziranje glavnog zadatka&quot; (Prvi dio)</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#radionicaFinaliziranjeGlavnogZadatka2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#radionicaFinaliziranjeGlavnogZadatka2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#EducationEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#goetheInstitutBiH"/>
+        <Bookstan2023:wasInstructedBy rdf:resource="http://www.semanticweb.org/Bookstan2023#selmaRaljević"/>
+        <Bookstan2023:dateTime>&quot;2023-07-04T11:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Radionica</Bookstan2023:eventType>
+        <Bookstan2023:name>Radionica „Finaliziranje glavnog zadatka&quot; (Drugi dio)</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#radionicaKakoČitatiIPisatiOpasno -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#radionicaKakoČitatiIPisatiOpasno">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#EducationEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#hotelColorsInn"/>
+        <Bookstan2023:wasInstructedBy rdf:resource="http://www.semanticweb.org/Bookstan2023#selmaRaljević"/>
+        <Bookstan2023:dateTime>&quot;2023-07-02T12:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Radionica</Bookstan2023:eventType>
+        <Bookstan2023:name>Radionica „Kako čitati i pisati &apos;opasno&apos;: &apos;Opasna&apos; moć književnosti i književne kritike“</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#radionicaOpasnoNerazumijevanjeKnjiževnogTeksta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#radionicaOpasnoNerazumijevanjeKnjiževnogTeksta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#EducationEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#goetheInstitutBiH"/>
+        <Bookstan2023:wasInstructedBy rdf:resource="http://www.semanticweb.org/Bookstan2023#zoranŽmirić"/>
+        <Bookstan2023:dateTime>&quot;2023-07-06T10:45:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:name>Radionica</Bookstan2023:name>
+        <Bookstan2023:name>Radionica „Opasno (ne)razumijevanje književnog teksta“</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#radionicaOtvoreniKraj -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#radionicaOtvoreniKraj">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#EducationEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#hotelColorsInn"/>
+        <Bookstan2023:wasInstructedBy rdf:resource="http://www.semanticweb.org/Bookstan2023#bjankaAlajbegović"/>
+        <Bookstan2023:dateTime>&quot;2023-07-08T12:30:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Radionica</Bookstan2023:eventType>
+        <Bookstan2023:name>Radionica „Otvoreni kraj – &apos;Opasni&apos; histerik što misli svojom glavom“</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#radionicaOtvoreniKrajZatvaranjeRadionice -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#radionicaOtvoreniKrajZatvaranjeRadionice">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#EducationEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#hotelColorsInn"/>
+        <Bookstan2023:wasInstructedBy rdf:resource="http://www.semanticweb.org/Bookstan2023#selmaRaljević"/>
+        <Bookstan2023:dateTime>&quot;2023-07-08T12:30:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Radionica</Bookstan2023:eventType>
+        <Bookstan2023:name>&apos;Otvoreni kraj&apos; Bookstanove radionice književnokritičkog &apos;opasnog čitanja&apos;</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#radionicaPreuzimajućiRizikKaoČitalacIPisac -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#radionicaPreuzimajućiRizikKaoČitalacIPisac">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#EducationEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#goetheInstitutBiH"/>
+        <Bookstan2023:wasInstructedBy rdf:resource="http://www.semanticweb.org/Bookstan2023#benjaminMoser"/>
+        <Bookstan2023:dateTime>&quot;2023-07-04T17:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Radionica</Bookstan2023:eventType>
+        <Bookstan2023:name>Radionica „Preuzimajući rizik, kao čitalac i pisac”</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#radionicaRazradaDrugogZadatka -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#radionicaRazradaDrugogZadatka">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#EducationEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#goetheInstitutBiH"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#dodjelaNagradaRadionica"/>
+        <Bookstan2023:wasInstructedBy rdf:resource="http://www.semanticweb.org/Bookstan2023#selmaRaljević"/>
+        <Bookstan2023:dateTime>&quot;2023-07-05T09:30:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Radionica</Bookstan2023:eventType>
+        <Bookstan2023:name>Radionica „Razrada drugog zadatka&quot;</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#radionicaRiječiMemorijeIRiječiPrirode -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#radionicaRiječiMemorijeIRiječiPrirode">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#EducationEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#goetheInstitutBiH"/>
+        <Bookstan2023:wasInstructedBy rdf:resource="http://www.semanticweb.org/Bookstan2023#farukŠehić"/>
+        <Bookstan2023:dateTime>&quot;2023-07-06T12:30:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Radionica</Bookstan2023:eventType>
+        <Bookstan2023:eventType>Radionica „Riječi memorije i riječi prirode“</Bookstan2023:eventType>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#refikHodžić -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#refikHodžić">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#polaroidKauboj"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaPolaroidKauboj"/>
+        <Bookstan2023:addressCountry>Bosna i Hercegovina</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Refik Hodžić</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#reneKarabaš -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#reneKarabaš">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#onaKojaOstaje"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaOnaKojaOstaje"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#specijalBalkanskiAutoriUOčimaZapada"/>
+        <Bookstan2023:addressCountry>Bugarska</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Rene Karabaš</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#samiraKaloper -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#samiraKaloper">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaMagičneBojiceIPerjeBiserje"/>
+        <Bookstan2023:name>Samira Kaloper</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#sandraCisneros -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#sandraCisneros">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#kućaUUliciMango"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaKućaUUliciMango"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaŽenaBezStida"/>
+        <Bookstan2023:addressCountry>SAD</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Sandra Cisneros</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#sanelaMihalić -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#sanelaMihalić">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#pedeset"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaPedeset"/>
+        <Bookstan2023:addressCountry>Bosna i Hercegovina</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Sanela Mihalić</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#sanitaDelić -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#sanitaDelić">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaAutofikcija"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaBudiVjeranIdi"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaCriticizeMe"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaFinaliziranjeGlavnogZadatka1"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaFinaliziranjeGlavnogZadatka2"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaKakoČitatiIPisatiOpasno"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOpasnoNerazumijevanjeKnjiževnogTeksta"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOtvoreniKraj"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOtvoreniKrajZatvaranjeRadionice"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaPreuzimajućiRizikKaoČitalacIPisac"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaRazradaDrugogZadatka"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaRiječiMemorijeIRiječiPrirode"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#dodjelaNagradaRadionica"/>
+        <Bookstan2023:name>Sanita Delić</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#sanjamKnjigeUIstri -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#sanjamKnjigeUIstri">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Organization"/>
+        <Bookstan2023:name>Sa(n)jam knjige u Istri</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#saraĐurić -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#saraĐurić">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:contributor rdf:resource="http://www.semanticweb.org/Bookstan2023#predstavaKućaUUliciMango"/>
+        <Bookstan2023:name>Sara Đurić</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#saschaGarzetti -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#saschaGarzetti">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#versschmuggelKrijumčarenjeStihova"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaVersschmuggelKrijumčarenjeStihova"/>
+        <Bookstan2023:addressCountry>Švicarska</Bookstan2023:addressCountry>
+        <Bookstan2023:name>SaschaGarzetti</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#sašaKrpotić -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#sašaKrpotić">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:contributor rdf:resource="http://www.semanticweb.org/Bookstan2023#predstavaKućaUUliciMango"/>
+        <Bookstan2023:name>Saša Krmpotić</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#selmaRaljević -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#selmaRaljević">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#specijalBalkanskiAutoriUOčimaZapada"/>
+        <Bookstan2023:name>Selma Raljević</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#selvedinAvdić -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#selvedinAvdić">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaPismaČitateljiciILjetaSMarijom"/>
+        <Bookstan2023:name>Selvedin Avdić</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#senadinMusabegović -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#senadinMusabegović">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#otvaranjeBookstana"/>
+        <Bookstan2023:name>Senadin Musabegović</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#senkaMarić -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#senkaMarić">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaOnaKojaOstaje"/>
+        <Bookstan2023:name>Senka Marić</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#sinPustinje -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#sinPustinje">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#MusicAlbum"/>
+        <Bookstan2023:name>Album Sin pustinje</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#smirnaGora -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#smirnaGora">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaSmirnaGora"/>
+        <Bookstan2023:name>Smirna gora</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#specijalAktuelniIzazoviBalkanskogIdentiteta -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#specijalAktuelniIzazoviBalkanskogIdentiteta">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#LiteraryEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#akademijaLikovnihUmjetnosti"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#imaginarniBalkan"/>
+        <Bookstan2023:dateTime>&quot;2023-07-06T14:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Specijalni program</Bookstan2023:eventType>
+        <Bookstan2023:name>Specijalni program Aktuelni izazovi balkanskog identiteta</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#specijalBalkanskiAutoriUOčimaZapada -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#specijalBalkanskiAutoriUOčimaZapada">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#LiteraryEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#akademijaLikovnihUmjetnosti"/>
+        <Bookstan2023:dateTime>&quot;2023-07-07T14:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Specijalni program</Bookstan2023:eventType>
+        <Bookstan2023:name>Specijalni program Balkanski autori u očima Zapada</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#specijalDoručakSAutoromBorisDežulović -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#specijalDoručakSAutoromBorisDežulović">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#LiteraryEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#ateljeFigure"/>
+        <Bookstan2023:wasContributedBy rdf:resource="http://www.semanticweb.org/Bookstan2023#sanjamKnjigeUIstri"/>
+        <Bookstan2023:dateTime>&quot;2023-07-07T11:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Specijalno gostovanje Doručak s autorom</Bookstan2023:eventType>
+        <Bookstan2023:name>Specijalno gostovanje Doručak s autorom (Boris Dežulović)</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#specijalDoručakSAutoromDarkoCvijetić -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#specijalDoručakSAutoromDarkoCvijetić">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#LiteraryEvent"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#ateljeFigure"/>
+        <Bookstan2023:wasContributedBy rdf:resource="http://www.semanticweb.org/Bookstan2023#sanjamKnjigeUIstri"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#nakupineStraha"/>
+        <Bookstan2023:dateTime>&quot;2023-07-08T11:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Specijalno gostovanje Doručak s autorom</Bookstan2023:eventType>
+        <Bookstan2023:name>Specijalno gostovanje Doručak s autorom (Darko Cvijetić)</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#specijalInMemoriamFarahTahirbegovićIEmirŠaković -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#specijalInMemoriamFarahTahirbegovićIEmirŠaković">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#LiteraryEvent"/>
+        <Bookstan2023:hasSpoken rdf:resource="http://www.semanticweb.org/Bookstan2023#adisaBašić"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#knjižaraBuybook"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#senadinMusabegović"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#nemojDaIdešDušo"/>
+        <Bookstan2023:workPresented rdf:resource="http://www.semanticweb.org/Bookstan2023#pjesmeIzPouzadnihIzvoraTuristUNevolji"/>
+        <Bookstan2023:dateTime>&quot;2023-07-07T19:00:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Specijalni program</Bookstan2023:eventType>
+        <Bookstan2023:name>Specijalni program In memoriam Farah Tahirbegović i Emir Šaković</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#srđanSekulić -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#srđanSekulić">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaZlatniGeler"/>
+        <Bookstan2023:name>Srđan Sekulić</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#stanislavaPaunović -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#stanislavaPaunović">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaAutofikcija"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaBudiVjeranIdi"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaCriticizeMe"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaFinaliziranjeGlavnogZadatka1"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaFinaliziranjeGlavnogZadatka2"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaKakoČitatiIPisatiOpasno"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOpasnoNerazumijevanjeKnjiževnogTeksta"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOtvoreniKraj"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOtvoreniKrajZatvaranjeRadionice"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaPreuzimajućiRizikKaoČitalacIPisac"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaRazradaDrugogZadatka"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaRiječiMemorijeIRiječiPrirode"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#dodjelaNagradaRadionica"/>
+        <Bookstan2023:award>1. nagrada</Bookstan2023:award>
+        <Bookstan2023:name>Stanislava Paunović</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#stilus -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#stilus">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Organization"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#materDolorosa"/>
+        <Bookstan2023:name>Stilus</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#strogoPraćeniVlakovi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#strogoPraćeniVlakovi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPublishedBy rdf:resource="http://www.semanticweb.org/Bookstan2023#izdavačBuybook"/>
+        <Bookstan2023:name>Strogo praćeni vlakovi</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#synopsis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#synopsis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Organization"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#pjesmeIzPouzadnihIzvoraTuristUNevolji"/>
+        <Bookstan2023:addressCountry>Bosna i Hercegovina</Bookstan2023:addressCountry>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#taminaŠop -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#taminaŠop">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:editor rdf:resource="http://www.semanticweb.org/Bookstan2023#evolucijaJedneKratkovidostiIDrugePriče"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaEvolucijaJedneKratkovidostiIDrugePriče"/>
+        <Bookstan2023:translator rdf:resource="http://www.semanticweb.org/Bookstan2023#evolucijaJedneKratkovidostiIDrugePriče"/>
+        <Bookstan2023:name>Tamina Šop</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#toniKitanovski -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#toniKitanovski">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:performer rdf:resource="http://www.semanticweb.org/Bookstan2023#koncertSinPustinje"/>
+        <Bookstan2023:name>Toni Kitanovski</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#ulvijaTanović -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#ulvijaTanović">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaŽenaBezStida"/>
+        <Bookstan2023:translator rdf:resource="http://www.semanticweb.org/Bookstan2023#ženaBezStida"/>
+        <Bookstan2023:name>Ulvija Tanović</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#unaTanović -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#unaTanović">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaOčevidac"/>
+        <Bookstan2023:name>Una Tanović</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#vedadDrljević -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#vedadDrljević">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#dječakČak"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#ena"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaDječakČakIEna"/>
+        <Bookstan2023:addressCountry>Bosna i Hercegovina</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Vedad Drljević</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#versschmuggelKrijumčarenjeStihova -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#versschmuggelKrijumčarenjeStihova">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaVersschmuggelKrijumčarenjeStihova"/>
+        <Bookstan2023:name>VERSschmuggel / Krijumčarenje stihova</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#vesnaMišanović -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#vesnaMišanović">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaČudesniSvijeteIMaliTigar"/>
+        <Bookstan2023:addressCountry>Bosna i Hercegovina</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Vesna Mišanović</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#vrataTajni -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#vrataTajni">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaVrataTajni"/>
+        <Bookstan2023:name>Vrata tajni</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#wunderhorn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#wunderhorn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Organization"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#versschmuggelKrijumčarenjeStihova"/>
+        <Bookstan2023:name>Wunderhorn</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#youthArt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#youthArt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Organization"/>
+        <Bookstan2023:contributor rdf:resource="http://www.semanticweb.org/Bookstan2023#predstavaKućaUUliciMango"/>
+        <Bookstan2023:name>YouthArt</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#zaljubljenaUČitavSvijet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#zaljubljenaUČitavSvijet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaZaljubljenaUČitavSvijet"/>
+        <Bookstan2023:wasPublishedBy rdf:resource="http://www.semanticweb.org/Bookstan2023#školskaKnjiga"/>
+        <Bookstan2023:wasWrittenBy rdf:resource="http://www.semanticweb.org/Bookstan2023#oljaSavičevićIvančević"/>
+        <Bookstan2023:name>Zaljubljena u čitav svijet</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#zatvaranjeBookstana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#zatvaranjeBookstana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/Bookstan2023#SocialEvent"/>
+        <Bookstan2023:hasSpoken rdf:resource="http://www.semanticweb.org/Bookstan2023#senkaMarić"/>
+        <Bookstan2023:location rdf:resource="http://www.semanticweb.org/Bookstan2023#knjižaraBuybook"/>
+        <Bookstan2023:dateTime>&quot;2023-07-08T20:30:00&quot;</Bookstan2023:dateTime>
+        <Bookstan2023:eventType>Poseban događaj</Bookstan2023:eventType>
+        <Bookstan2023:name>Zatvaranje književnog 8. izdanja festivala Bookstan</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#zejnebaHajdarević -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#zejnebaHajdarević">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaAutofikcija"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaBudiVjeranIdi"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaCriticizeMe"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaFinaliziranjeGlavnogZadatka1"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaFinaliziranjeGlavnogZadatka2"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaKakoČitatiIPisatiOpasno"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOpasnoNerazumijevanjeKnjiževnogTeksta"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOtvoreniKraj"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaOtvoreniKrajZatvaranjeRadionice"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaPreuzimajućiRizikKaoČitalacIPisac"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaRazradaDrugogZadatka"/>
+        <Bookstan2023:attendee rdf:resource="http://www.semanticweb.org/Bookstan2023#radionicaRiječiMemorijeIRiječiPrirode"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#dodjelaNagradaRadionica"/>
+        <Bookstan2023:award>3. nagrada</Bookstan2023:award>
+        <Bookstan2023:name>Zejneba Hajdarević</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#zlatkoSarajlija -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#zlatkoSarajlija">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#plastelinci"/>
+        <Bookstan2023:addressCountry>Bosna i Hercegovina</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Zlatko Sarajlija</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#zlatniGeler -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#zlatniGeler">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaZlatniGeler"/>
+        <Bookstan2023:name>Zlatni geler</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#zoranŽmirić -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#zoranŽmirić">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#hotelWartburg"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaHotelWartburg"/>
+        <Bookstan2023:addressCountry>Hrvatska</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Zoran Žmirić</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#čarobnjak -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#čarobnjak">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#zatvaranjeBookstana"/>
+        <Bookstan2023:name>Čarobnjak</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#čudesniSvijet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#čudesniSvijet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaČudesniSvijeteIMaliTigar"/>
+        <Bookstan2023:wasWrittenBy rdf:resource="http://www.semanticweb.org/Bookstan2023#vesnaMišanović"/>
+        <Bookstan2023:name>Čudesni svijet</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#đorđeKrajišnik -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#đorđeKrajišnik">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaĐubreKnjigaStraveIUžasa"/>
+        <Bookstan2023:name>Đorđe Krajišnik</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#đubreKnjigaStraveIUžasa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#đubreKnjigaStraveIUžasa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaĐubreKnjigaStraveIUžasa"/>
+        <Bookstan2023:name>Đubre: Knjiga strave i užasa</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#đurđicaČilić -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#đurđicaČilić">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#noviKraj"/>
+        <Bookstan2023:participant rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaNoviKraj"/>
+        <Bookstan2023:addressCountry>Bosna i Hercegovina</Bookstan2023:addressCountry>
+        <Bookstan2023:name>Đurđica Čilić</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#šejlaDžindo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#šejlaDžindo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#pressKonferencija"/>
+        <Bookstan2023:speaker rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaNoviKraj"/>
+        <Bookstan2023:name>Šejla Džindo</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#šejlaRizvanbegovićDvizac -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#šejlaRizvanbegovićDvizac">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Person"/>
+        <Bookstan2023:producer rdf:resource="http://www.semanticweb.org/Bookstan2023#predstavaKućaUUliciMango"/>
+        <Bookstan2023:name>Šejla Rizvanbegović Dvizac</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#školskaKnjiga -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#školskaKnjiga">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Organization"/>
+        <Bookstan2023:publisher rdf:resource="http://www.semanticweb.org/Bookstan2023#zaljubljenaUČitavSvijet"/>
+        <Bookstan2023:name>Školska knjiga</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#škriptajiKože -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#škriptajiKože">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaŠkriptajiKože"/>
+        <Bookstan2023:name>Škriptaji kože</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#šušanj -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#šušanj">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaŠušanj"/>
+        <Bookstan2023:wasPublishedBy rdf:resource="http://www.semanticweb.org/Bookstan2023#izdavačBuybook"/>
+        <Bookstan2023:name>Šušanj</Bookstan2023:name>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/Bookstan2023#ženaBezStida -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/Bookstan2023#ženaBezStida">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2024/7/untitled-ontology-25#Book"/>
+        <Bookstan2023:author rdf:resource="http://www.semanticweb.org/Bookstan2023#sandraCisneros"/>
+        <Bookstan2023:wasPresentedAt rdf:resource="http://www.semanticweb.org/Bookstan2023#promocijaŽenaBezStida"/>
+        <Bookstan2023:name>Žena bez stida</Bookstan2023:name>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
