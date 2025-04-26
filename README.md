@@ -9,7 +9,7 @@ The ontology was created using Protégé software, based on Schema.org classes a
 It includes 15 classes, 36 object properties, 5 data properties, and 237 instances.
 
 Author
-LiloLuZimmer
+DMirovic
 
 License
 CC0 1.0 Universal — You are free to share and adapt the material, as long as appropriate credit is given.
