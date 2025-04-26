@@ -12,4 +12,4 @@ Author
 LiloLuZimmer
 
 License
-CC BY 4.0 — You are free to share and adapt the material, as long as appropriate credit is given.
+CC0 1.0 Universal — You are free to share and adapt the material, as long as appropriate credit is given.
